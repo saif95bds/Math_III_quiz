@@ -236,6 +236,8 @@ function submitAnswer(index, btn) {
     btn.classList.add("correct");
     feedbackEl.textContent = "Correct!";
     if (typeof showFireworks === 'function') showFireworks();
+    // Animate mascot for correct answer
+    if (typeof mascotCorrectAnswer === 'function') mascotCorrectAnswer();
   } else {
     score.wrong++;
     btn.classList.add("wrong");
@@ -243,6 +245,8 @@ function submitAnswer(index, btn) {
     // highlight correct choice too
     const correctBtn = choicesEl.children[activeQuestion.correctIndex];
     if (correctBtn) correctBtn.classList.add("correct");
+    // Animate mascot for wrong answer
+    if (typeof mascotWrongAnswer === 'function') mascotWrongAnswer();
   }
   updateStatus();
   nextBtn.disabled = false;

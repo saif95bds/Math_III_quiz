@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Mascot Thinking</title>
+    <g id="mascot-thinking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Body -->
+        <circle id="body" fill="#FFD166" cx="75" cy="85" r="45"></circle>
+        
+        <!-- Eyes -->
+        <circle id="eye-left" fill="white" cx="60" cy="75" r="10"></circle>
+        <circle id="eye-right" fill="white" cx="90" cy="75" r="10"></circle>
+        
+        <!-- Pupils - looking up -->
+        <circle id="pupil-left" fill="#333333" cx="60" cy="72" r="5"></circle>
+        <circle id="pupil-right" fill="#333333" cx="90" cy="72" r="5"></circle>
+        
+        <!-- Mouth - thinking -->
+        <path d="M65,95 Q75,90 85,95" id="mouth" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+        
+        <!-- Thinking bubble -->
+        <circle id="bubble-1" fill="white" cx="120" cy="40" r="5"></circle>
+        <circle id="bubble-2" fill="white" cx="110" cy="30" r="8"></circle>
+        <circle id="bubble-3" fill="white" cx="95" cy="20" r="12"></circle>
+    </g>
+</svg>

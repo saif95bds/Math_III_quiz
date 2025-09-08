@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Mascot Happy</title>
+    <g id="mascot-happy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Body -->
+        <circle id="body" fill="#FFD166" cx="75" cy="85" r="45"></circle>
+        
+        <!-- Eyes -->
+        <path d="M55,75 Q60,65 65,75" id="eye-left" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M85,75 Q90,65 95,75" id="eye-right" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+        
+        <!-- Mouth -->
+        <path d="M55,95 Q75,115 95,95" id="mouth" stroke="#333333" stroke-width="3" stroke-linecap="round" fill="#FF6B6B"></path>
+        
+        <!-- Blush -->
+        <circle id="blush-left" fill="#FF9999" opacity="0.5" cx="55" cy="90" r="8"></circle>
+        <circle id="blush-right" fill="#FF9999" opacity="0.5" cx="95" cy="90" r="8"></circle>
+    </g>
+</svg>

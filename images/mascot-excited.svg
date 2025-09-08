@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Mascot Excited</title>
+    <g id="mascot-excited" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Body -->
+        <circle id="body" fill="#FFD166" cx="75" cy="85" r="45"></circle>
+        
+        <!-- Eyes - excited with stars -->
+        <circle id="eye-bg-left" fill="white" cx="60" cy="75" r="10"></circle>
+        <circle id="eye-bg-right" fill="white" cx="90" cy="75" r="10"></circle>
+        
+        <!-- Star eyes -->
+        <polygon id="star-left" fill="#FF9900" points="60,70 62,75 67,75 63,78 65,83 60,80 55,83 57,78 53,75 58,75"></polygon>
+        <polygon id="star-right" fill="#FF9900" points="90,70 92,75 97,75 93,78 95,83 90,80 85,83 87,78 83,75 88,75"></polygon>
+        
+        <!-- Mouth - wide smile -->
+        <path d="M55,95 Q75,120 95,95" id="mouth" stroke="#333333" stroke-width="3" stroke-linecap="round" fill="#FF6B6B"></path>
+        
+        <!-- Excitement lines -->
+        <line id="line-1" stroke="#FF9900" stroke-width="2" x1="30" y1="60" x2="45" y2="70"></line>
+        <line id="line-2" stroke="#FF9900" stroke-width="2" x1="120" y1="60" x2="105" y2="70"></line>
+        <line id="line-3" stroke="#FF9900" stroke-width="2" x1="30" y1="100" x2="45" y2="90"></line>
+        <line id="line-4" stroke="#FF9900" stroke-width="2" x1="120" y1="100" x2="105" y2="90"></line>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Mascot Idle</title>
+    <g id="mascot-idle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Body -->
+        <circle id="body" fill="#FFD166" cx="75" cy="85" r="45"></circle>
+        
+        <!-- Eyes -->
+        <circle id="eye-left" fill="white" cx="60" cy="75" r="10"></circle>
+        <circle id="eye-right" fill="white" cx="90" cy="75" r="10"></circle>
+        
+        <!-- Pupils -->
+        <circle id="pupil-left" fill="#333333" cx="60" cy="75" r="5"></circle>
+        <circle id="pupil-right" fill="#333333" cx="90" cy="75" r="5"></circle>
+        
+        <!-- Mouth -->
+        <path d="M60,95 Q75,105 90,95" id="mouth" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+</svg>
