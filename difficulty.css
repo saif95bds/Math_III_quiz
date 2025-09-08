@@ -1,0 +1,69 @@
+/* Add styles for difficulty selector */
+.difficulty-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.difficulty-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.difficulty-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #d9dee8;
+  background: #fafbff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.difficulty-btn:hover {
+  background: #f0f4ff;
+  border-color: #b4c2e4;
+}
+
+.difficulty-btn.active {
+  background: #3a86ff;
+  color: white;
+  border-color: #2970e6;
+}
+
+/* Different button colors for each difficulty level */
+.difficulty-btn[data-difficulty="easy"].active {
+  background: #28a745;
+  border-color: #1e7e34;
+}
+
+.difficulty-btn[data-difficulty="medium"].active {
+  background: #fd7e14;
+  border-color: #dc6502;
+}
+
+.difficulty-btn[data-difficulty="hard"].active {
+  background: #dc3545;
+  border-color: #bd2130;
+}
+
+/* Difficulty indication in question */
+.difficulty-indicator {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Different colors for different difficulty levels */
+.easy-question {
+  color: #28a745;
+}
+
+.medium-question {
+  color: #fd7e14;
+}
+
+.hard-question {
+  color: #dc3545;
+}
