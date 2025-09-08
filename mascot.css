@@ -162,6 +162,8 @@
   font-weight: bold;
   color: #333;
   pointer-events: none;
+  z-index: 110; /* Ensure speech bubble is above other elements */
+  word-wrap: break-word; /* Ensure text wraps properly */
 }
 
 .speech-bubble:after {

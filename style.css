@@ -6,6 +6,8 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #f5f7fb;
+  padding: 15px 0;
+  box-sizing: border-box;
 }
 .container {
   text-align: center;
@@ -36,6 +38,8 @@ body {
   margin-bottom: 10px;
   font-weight: 600;
   color: #334;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 #question {
   margin: 8px 0 14px;
@@ -53,6 +57,8 @@ body {
   border: 1px solid #d9dee8;
   background: #fafbff;
   font-size: 16px;
+  transition: background-color 0.2s ease;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
 }
 .choice:hover { background: #f0f4ff; }
 .choice:disabled { opacity: .7; cursor: not-allowed; }
